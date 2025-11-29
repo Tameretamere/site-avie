@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laboratoire AVIE – Compléments Bio</title>
+<meta name="description" content="Compléments bio, certifiés et analysés pour soutenir votre vitalité quotidienne. Découvrez nos gammes pour énergie, immunité, stress, digestion et anti-âge.">
+
+<style>
+/* Reset et base */
+* {margin:0; padding:0; box-sizing:border-box; font-family:'Helvetica Neue', Arial, sans-serif;}
+body {line-height:1.6; color:#333; background-color:#fafafa;}
+a {text-decoration:none; color:inherit;}
+img {max-width:100%; height:auto;}
+
+/* Boutons */
+.btn-primary {background-color:#4CAF50; color:#fff; padding:10px 18px; border-radius:5px; display:inline-block; font-weight:bold; transition:0.3s; cursor:pointer;}
+.btn-primary:hover {background-color:#45a049;}
+.btn-secondary {background-color:#f0f0f0; color:#333; padding:10px 18px; border-radius:5px; display:inline-block; font-weight:bold; border:1px solid #ccc; transition:0.3s;}
+.btn-secondary:hover {background-color:#e0e0e0;}
+
+/* Hero */
+.hero {background:url('https://images.unsplash.com/photo-1599942511706-3b1ef1980f97?auto=format&fit=crop&w=1920&q=80') no-repeat center/cover; padding:120px 20px; text-align:center; color:#fff; position:relative;}
+.hero h1 {font-size:2.8rem; margin-bottom:15px;}
+.hero p {font-size:1.2rem; margin-bottom:20px;}
+
+/* Section Objectifs */
+.section {padding:60px 20px; text-align:center;}
+.section h2 {font-size:2rem; margin-bottom:40px;}
+.cards, .product-grid, .engagements, .stats {display:flex; flex-wrap:wrap; justify-content:center; gap:25px;}
+.card, .product, .engagements li, .stat {background-color:#f9f9f9; padding:20px; border-radius:8px; text-align:center; transition:transform 0.3s ease, box-shadow 0.3s ease;}
+.card:hover, .product:hover {transform:translateY(-5px); box-shadow:0 8px 20px rgba(0,0,0,0.1);}
+.card img, .product img {width:80px; margin-bottom:15px;}
+.product img {width:120px;}
+
+/* Footer */
+.footer {background-color:#333; color:#fff; padding:60px 20px 40px; text-align:center;}
+.footer a {color:#fff; margin:0 8px; transition:0.3s;}
+.footer a:hover {color:#4CAF50;}
+.footer form input[type="email"] {padding:8px 10px; width:200px; border-radius:4px; border:none; margin-right:5px;}
+.footer form button {padding:8px 15px; border:none; background-color:#4CAF50; color:#fff; border-radius:4px; cursor:pointer;}
+.footer form button:hover {background-color:#45a049;}
+.footer p {margin-top:30px; font-size:0.85rem;}
+
+/* Responsive */
+@media (max-width:768px){
+  .cards, .product-grid, .engagements, .stats {flex-direction:column; align-items:center;}
+  .card, .product, .engagements li, .stat {width:80%;}
+}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <h1>Compléments bio, puissants et traçables</h1>
+  <p>Formules 100 % bio, certifiées et analysées pour un bien-être naturel sûr et efficace.</p>
+  <a href="#objectifs" class="btn-primary">Découvrez nos produits</a>
+</header>
+
+<!-- Objectifs -->
+<section id="objectifs" class="section">
+  <h2>Trouvez le complément adapté à vos besoins</h2>
+  <div class="cards">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1504542989556-1b043c4f3ee0?auto=format&fit=crop&w=80&q=80" alt="Énergie">
+      <h3>Énergie & Vitalité</h3>
+      <p>Maintenez votre tonus et votre énergie chaque jour.</p>
+      <a href="#produits" class="btn-secondary">Voir produits</a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1588776814546-2c924d011802?auto=format&fit=crop&w=80&q=80" alt="Immunité">
+      <h3>Immunité & Défenses naturelles</h3>
+      <p>Renforcez vos défenses de manière naturelle.</p>
+      <a href="#produits" class="btn-secondary">Voir produits</a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1608730245837-6b8e73c0b0f3?auto=format&fit=crop&w=80&q=80" alt="Stress & Sommeil">
+      <h3>Stress & Sommeil</h3>
+      <p>Soutenez votre équilibre émotionnel et la qualité du sommeil.</p>
+      <a href="#produits" class="btn-secondary">Voir produits</a>
+    </div>
+  </div>
+</section>
+
+<!-- Produits -->
+<section id="produits" class="section" style="background-color:#f4f4f4;">
+  <h2>Nos produits phares</h2>
+  <div class="product-grid">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1598514983470-dad7870b1242?auto=format&fit=crop&w=120&q=80" alt="Produit 1">
+      <h3>Mucuna Pruriens</h3>
+      <p>Extrait standardisé 500mg, bio certifié.</p>
+      <span class="price">29,90 €</span>
+      <a href="#" class="btn-primary">Voir produit</a>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1603031598891-f6c6c3c209e8?auto=format&fit=crop&w=120&q=80" alt="Produit 2">
+      <h3>Cordyceps</h3>
+      <p>Formule naturelle concentrée pour énergie et vitalité.</p>
+      <span class="price">34,90 €</span>
+      <a href="#" class="btn-primary">Voir produit</a>
+    </div>
+  </div>
+</section>
+
+<!-- Pourquoi nous choisir -->
+<section id="pourquoi" class="section">
+  <h2>Nos engagements qualité et transparence</h2>
+  <ul class="engagements">
+    <li>100 % bio et traçable</li>
+    <li>Analyses indépendantes disponibles</li>
+    <li>Certification UE et labels qualité</li>
+    <li>Origine France / Europe</li>
+    <li>Méthodes d’extraction détaillées</li>
+    <li>Satisfaction clients : 97 % recommandent</li>
+  </ul>
+</section>
+
+<!-- Expertise -->
+<section class="section" style="background-color:#f4f4f4;">
+  <h2>Notre expertise</h2>
+  <p>Depuis plus de 10 ans, nous développons des compléments naturels selon les standards européens les plus stricts. Chaque lot est testé et certifié pour garantir pureté, concentration et efficacité.</p>
+  <div class="stats">
+    <div class="stat"><span>10</span><p>ans d’expérience</p></div>
+    <div class="stat"><span>100 %</span><p>Bio certifié</p></div>
+    <div class="stat"><span>+10 000</span><p>clients satisfaits</p></div>
+    <div class="stat"><span>50</span><p>produits contrôlés</p></div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <h3>Contact</h3>
+  <p>Email: contact@laboratoire-avie.com</p>
+  <p>Téléphone: 01 23 45 67 89</p>
+  <p>Adresse: 10 Rue de la Santé, 75000 Paris, France</p>
+  <div class="liens">
+    <a href="#">Mentions légales</a> |
+    <a href="#">CGV</a> |
+    <a href="#">Politique de confidentialité</a> |
+    <a href="#">FAQ</a>
+  </div>
+  <div class="newsletter">
+    <h3>Newsletter</h3>
+    <form>
+      <input type="email" placeholder="Votre email">
+      <button type="submit">S’inscrire</button>
+    </form>
+  </div>
+  <p>© 2025 Laboratoire AVIE. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
